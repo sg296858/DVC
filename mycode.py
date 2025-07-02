@@ -9,7 +9,7 @@ data={'Name':['Alice','Bob','Charlie'],
 
 df=pd.DataFrame(data)
 
-data="dir"
+data="data"
 os.makedirs(data,exist_ok=True)
 
 filepath=os.path.join(data,'sample-data.csv')
